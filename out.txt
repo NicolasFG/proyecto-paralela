@@ -1,0 +1,200 @@
+Métricas para 2 procesos con N = 4
+Tiempo en GFlops: 9.3
+T comm: 1490.0
+T force: 231000.0
+T tot: 235000.0
+Speedup: 1.9829787234042553
+Efficiency: 0.9914893617021276
+
+Métricas para 2 procesos con N = 8
+Tiempo en GFlops: 9.346
+T comm: 3000.0
+T force: 1040000.0
+T tot: 1050000.0
+Speedup: 1.9904761904761905
+Efficiency: 0.9952380952380953
+
+Métricas para 2 procesos con N = 16
+Tiempo en GFlops: 9.356
+T comm: 4910.0
+T force: 4800000.0
+T tot: 4830000.0
+Speedup: 2.002070393374741
+Efficiency: 1.0010351966873705
+
+Métricas para 2 procesos con N = 32
+Tiempo en GFlops: 9.362
+T comm: 69900.0
+T force: 21600000.0
+T tot: 21800000.0
+Speedup: 2.0
+Efficiency: 1.0
+
+Métricas para 2 procesos con N = 64
+Tiempo en GFlops: 9.273
+T comm: 83000.0
+T force: 101000000.0
+T tot: 101000000.0
+Speedup: 1.9801980198019802
+Efficiency: 0.9900990099009901
+
+Métricas para 4 procesos con N = 4
+Tiempo en GFlops: 18.44
+T comm: 1050.0
+T force: 116000.0
+T tot: 118000.0
+Speedup: 3.9491525423728815
+Efficiency: 0.9872881355932204
+
+Métricas para 4 procesos con N = 8
+Tiempo en GFlops: 18.611
+T comm: 2580.0
+T force: 519000.0
+T tot: 527000.0
+Speedup: 3.96584440227704
+Efficiency: 0.99146110056926
+
+Métricas para 4 procesos con N = 16
+Tiempo en GFlops: 18.689
+T comm: 15600.0
+T force: 2390000.0
+T tot: 2420000.0
+Speedup: 3.9958677685950414
+Efficiency: 0.9989669421487604
+
+Métricas para 4 procesos con N = 32
+Tiempo en GFlops: 18.641
+T comm: 13000.0
+T force: 10900000.0
+T tot: 10900000.0
+Speedup: 4.0
+Efficiency: 1.0
+
+Métricas para 4 procesos con N = 64
+Tiempo en GFlops: 18.657
+T comm: 186000.0
+T force: 49800000.0
+T tot: 50100000.0
+Speedup: 3.992015968063872
+Efficiency: 0.998003992015968
+
+Métricas para 8 procesos con N = 4
+Tiempo en GFlops: 35.704
+T comm: 1780.0
+T force: 58000.0
+T tot: 61100.0
+Speedup: 7.62684124386252
+Efficiency: 0.953355155482815
+
+Métricas para 8 procesos con N = 8
+Tiempo en GFlops: 36.613
+T comm: 3640.0
+T force: 260000.0
+T tot: 268000.0
+Speedup: 7.798507462686567
+Efficiency: 0.9748134328358209
+
+Métricas para 8 procesos con N = 16
+Tiempo en GFlops: 36.918
+T comm: 13800.0
+T force: 1200000.0
+T tot: 1220000.0
+Speedup: 7.926229508196721
+Efficiency: 0.9907786885245902
+
+Métricas para 8 procesos con N = 32
+Tiempo en GFlops: 37.208
+T comm: 33000.0
+T force: 5410000.0
+T tot: 5480000.0
+Speedup: 7.956204379562044
+Efficiency: 0.9945255474452555
+
+Métricas para 8 procesos con N = 64
+Tiempo en GFlops: 37.333
+T comm: 127000.0
+T force: 24800000.0
+T tot: 25100000.0
+Speedup: 7.968127490039841
+Efficiency: 0.9960159362549801
+
+Métricas para 16 procesos con N = 4
+Tiempo en GFlops: 67.553
+T comm: 2270.0
+T force: 28900.0
+T tot: 32300.0
+Speedup: 14.427244582043343
+Efficiency: 0.901702786377709
+
+Métricas para 16 procesos con N = 8
+Tiempo en GFlops: 71.148
+T comm: 4120.0
+T force: 130000.0
+T tot: 138000.0
+Speedup: 15.144927536231885
+Efficiency: 0.9465579710144928
+
+Métricas para 16 procesos con N = 16
+Tiempo en GFlops: 72.641
+T comm: 8930.0
+T force: 600000.0
+T tot: 621000.0
+Speedup: 15.571658615136876
+Efficiency: 0.9732286634460547
+
+Métricas para 16 procesos con N = 32
+Tiempo en GFlops: 73.589
+T comm: 27100.0
+T force: 2700000.0
+T tot: 2770000.0
+Speedup: 15.740072202166065
+Efficiency: 0.983754512635379
+
+Métricas para 16 procesos con N = 64
+Tiempo en GFlops: 74.018
+T comm: 128000.0
+T force: 12400000.0
+T tot: 12600000.0
+Speedup: 15.873015873015873
+Efficiency: 0.9920634920634921
+
+Métricas para 32 procesos con N = 4
+Tiempo en GFlops: 75.555
+T comm: 6640.0
+T force: 20400.0
+T tot: 28900.0
+Speedup: 16.124567474048444
+Efficiency: 0.5038927335640139
+
+Métricas para 32 procesos con N = 8
+Tiempo en GFlops: 100.672
+T comm: 20800.0
+T force: 71000.0
+T tot: 97300.0
+Speedup: 21.479958890030833
+Efficiency: 0.6712487153134635
+
+Métricas para 32 procesos con N = 16
+Tiempo en GFlops: 127.314
+T comm: 24700.0
+T force: 306000.0
+T tot: 355000.0
+Speedup: 27.239436619718308
+Efficiency: 0.8512323943661971
+
+Métricas para 32 procesos con N = 32
+Tiempo en GFlops: 136.474
+T comm: 84900.0
+T force: 1350000.0
+T tot: 1490000.0
+Speedup: 29.261744966442954
+Efficiency: 0.9144295302013423
+
+Métricas para 32 procesos con N = 64
+Tiempo en GFlops: 143.257
+T comm: 129000.0
+T force: 6220000.0
+T tot: 6530000.0
+Speedup: 30.627871362940276
+Efficiency: 0.9571209800918836
+
