@@ -1,11 +1,16 @@
 import os
+import calc_comm
+import calc_tot
+import calc_speedup
+import calc_efficiency
+import matplotlib.pyplot as plt
 
 # procesadores y N
 n_processors = [2, 4, 8, 16, 32, 64]
 n_values = [4, 8, 16, 32, 64]
 
 # tiempo secuencial
-seq_times = [4.66E+05, 2.09E+06, 9.67E+06, 4.36E+07, 2.00E+08]
+seq_times = [4.66E+01, 2.09E+02, 9.67E+02, 4.36E+03, 2.00E+04]
 
 for p in n_processors:
     for i in enumerate(n_values):
@@ -35,7 +40,8 @@ for p in n_processors:
             speedup = seq_times[i[0]] / t_tot
             efficiency = speedup / p
 
-            print(f"Métricas para {p} procesos con N = {i[1]}")
+            print(f"P: {p}")
+            print(f"N: {i[1]}")
             print(f"Tiempo en GFlops: {t_gflops}")
             print(f"T comm: {t_comm}")
             print(f"T force: {t_force}")
@@ -43,3 +49,15 @@ for p in n_processors:
             print(f"Speedup: {speedup}")
             print(f"Efficiency: {efficiency}")
             print()
+
+plt.figure(figsize=(10, 8))
+plt.title("Análisis de performance")
+
+calc_comm.show_comm()
+calc_tot.show_tot()
+calc_speedup.show_speedup()
+calc_efficiency.show_efficiency()
+
+plt.tight_layout()
+
+plt.show()
